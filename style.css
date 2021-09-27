@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:wght@700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: rgba(219, 221, 120, 0.884);
+}
+
+#banner {
+    background-image: url("https://cdn1.matadornetwork.com/blogs/1/2011/04/Main-square-in-Trujillo-Peru-with-people-1200x853.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 690px;
+    padding: 150px 0px;
+    text-align: center;
+}
+
+.banner-text{
+    background-color: rgba(145, 190, 212, 0.37);
+}
+
+header {
+    padding: 10px 0px;
+    margin: 0%;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 104px;
+    margin-top: 30px;
+    color:rgb(34, 41, 40);
+}
+
+h4 {
+    color:rgb(216, 123, 36);
+    font-family: fantasy;
+    text-align: center;
+    font-size: xx-large;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Marck Script', cursive;
+    font-size: 52px;
+    margin-top: 0;
+    margin-bottom: 0%;
+    color:rgb(255, 255, 255);
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Arvo', serif;
+    color:grey;
+    font-size: 45px;
+}
+
+main ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center,justify;
+    margin: 20px 10%;
+    font-size: large;
+}
+
+main p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 5px 15%;
+    text-align:center,justify;
+    margin:10px 10%;
+    font-size: x-large;
+}
+
+.inline-block{
+    display: inline-block;
+    width:70%;
+    background-color: rgb(255, 255, 255);
+    border: 6px solid gray;
+    padding: 18px;
+    margin:50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center,justify;
+    font: size 24px;
+    position: relative;
+    left:150px;
+}
+
+.video {
+    text-align: center;
+    transition: 0.5s ease-in-out;
+    transform: scale(0.9);
+}
+
+.video:houver {
+    transform: scale(1);
+}
+
+footer{
+    background-color: rgba(151, 155, 160, 0.247);
+    text-align: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    padding: 13px;
+    margin: 7px 7px;
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    font-family: 'Prompt', sans-serif;
+    font-size: x-large;
+    padding: 45px 0px;
+    color:rgb(122, 16, 16);
+}
+
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color:rgb(255, 230, 0);
+    background-color: rgb(14, 13, 13);
+}
+
+.container{
+    padding: 0 30%;
+}
+
+fieldset{
+    margin: 20px 0;
+    padding: 15px 0;
+}
+
+legend{
+    padding: 0px 10px;
+}
+
+img{
+    width: 140px;
+}
+
+main img{
+    width: 130px;
+}
+
+header img:hover{
+  filter: grayscale(100%);
+}
+
+label,select{
+    display: block;
+}
+
+label{
+    font-size: 15px;
+    color:rgb(42, 104, 218);
+}
+
+input, textarea{
+    margin-bottom: 13px;
+}
+
+input{
+    transition:all .5s ease-in-out;
+}
+
+input.hover{
+    background: chocolate;
+}
+
+input[type="email"]{
+    background: rgba(17, 148, 224, 0.699);
+}
+
+select{
+    margin:0 auto 15px;
+}
+
+.idade label{
+    display: inline-block;
+}
+
+.opcional label{
+    display:inline-block;
+}
+
+button{
+    margin: 3% 0;
+}
+
+button[type="submit"]{
+    background: rgb(41, 85, 207);
+}
+
+button[type="reset"]{
+    background: rgb(99, 17, 17);
+}
+
+button :hover{
+    background: darkgreen;
+    color:darkg 
